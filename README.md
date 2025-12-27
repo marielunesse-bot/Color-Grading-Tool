@@ -5,9 +5,16 @@ Ce projet se concentre sur:
 - L'application de LUTs (cubes)
 - L'ajustement des courbes de couleurs RGB
 - L'exportation des images traitées
-### Etape 1.2: Technologies utilisées et leur role
+## Etape 1.2: Technologies utilisées et leur role
 Cette etape presente les technologies choisies pour le developpement de l'outil de color grading
-- python pour la coordination entre l'interface graphique,les algorithmes de traitement d'images et la gestion des fichiers
-- OpenCV pour le chargement des images, la maniplation de pixels et les conversions d'espaces colorifiques
-- LUTs (Look-Up Tables) qui permettent d'appliquer des styles de couleur predefinis aux images
-- PyQt6 pour permettre a l'utilisateur d'interagir avec l'application (changer des images, selectionner des LUTs et ajuster les courbes) 
+- **python** pour la coordination entre l'interface graphique,les algorithmes de traitement d'images et la gestion des fichiers
+- **OpenCV** pour le chargement des images, la maniplation de pixels et les conversions d'espaces colorifiques
+- **LUTs (Look-Up Tables)** qui permettent d'appliquer des styles de couleur predefinis aux images
+- **PyQt6** pour permettre a l'utilisateur d'interagir avec l'application (changer des images, selectionner des LUTs et ajuster les courbes) 
+## Etape 1.3: Architecture logicielle
+Cette etape consiste a garantir une bonne lisibilité du code et l'évolution de l'application
+- "src/" *contient l'ensemble du code source de l'application*
+- "assets" *contient les ressources utilisées par l'applcation* 
+- "sample_images/" : images de test
+- "luts/" : fichiers LUT au format .cube
+- "docs/" *contient la documentation technique du projet*
