@@ -23,14 +23,19 @@ ColorGradingTool/
 │   └── cinematic.cube
 │
 ├── src/
-│   ├── ImageLoader.cpp
-│   ├── ImageLoader.hpp
-│   ├── LutProcessor.cpp
-│   ├── LutProcessor.hpp
-│   ├── ColorCurve.cpp
-│   ├── ColorCurve.hpp
-│   └── main.cpp
-│
+│   ├── core/          
+│   │   ├── ImageLoader.hpp
+│   │   ├── ImageLoader.cpp
+│   │   ├── LutProcessor.hpp
+│   │   ├── LutProcessor.cpp
+│   │   ├── ColorCurve.hpp
+│   │   └── ColorCurve.cpp
+│   │
+│   ├── ui/            
+│   │   ├── MainWindow.hpp
+│   │   └── MainWindow.cpp
+│   │
+│   └── main.cpp       
 ├── include/
 │   └── Common.hpp
 │
