@@ -9,6 +9,7 @@ Ce projet vise a concevoir un outil de color grading pour le traitement d'images
 ## Technologies utilisées
 - **C++** langage principale du projet pour le traitement d'images en respectant les conventions de nommage
 - **OpenCV** bibliotheque C++ pour permettre de charger et sauvegarder des images;manipuler les pixels,matrices de couleurs; appliquer les LUTs et ajuster les courbes RGB
+- **Qt**(Qt Widgets) framework utilise pour la creation de l'interface graphique et la gestion des interactions utilisateurs  
 - **CMake/g++** outil de compilation et de construction du projet CMake organise les fichiers et dependances; g++ compile le code C++ en executable 
 - **Github** outil de gestion de version pour le suivie de l'evolution du projet
 - **Betty Doc/Betty Style** norme de documentation et de style pour documenter chaque fonction,classe et methode afin d'assurer un code lisible 
