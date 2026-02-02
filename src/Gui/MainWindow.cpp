@@ -1,5 +1,5 @@
-#include "Window.h"
-#include "Logger.h"
+#include "MainWindow.h"
+#include "Log.h"
 #include <iostream>
 
 Window::Window(const std::string& title, int width, int height)

@@ -1,5 +1,5 @@
 #include "GuiManager.h"
-#include "../../Core/Logger.h"
+#include "../Core/Log.h"
 
 GuiManager::GuiManager(SDL_Window* window, SDL_GLContext glContext)
 {

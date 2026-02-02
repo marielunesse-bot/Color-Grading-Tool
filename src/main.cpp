@@ -1,8 +1,25 @@
-#include <opencv2/opencv.h>
-#include <iostream>
-#include <string>
-#include <unordered_map>
+#include "Main.h"
+#include "Core/Application.h"
+#include "Core/Log.h"
+#include "Apps/ColorGradingApp.h"
+#include  <string>
 
+namespace ColorGradingTool 
+{
+    Application* CreateApplication(Args args)
+    {
+      // Creation des proprietes de l'application
+      ApplicationProperties appProps;
+      appProps.Name = "Color Grading Tool";
+        appProps.Width = 1280;
+        appProps.Height = 720;
+        appProps.fullscreen = false;
+
+        //Retourne une nouvelle instance de l'application
+        return new ColorGradingApp(appProps);
+    }
+} // namespace ColorGradingTool
+/* 
 // Affiche l'utilisation du programme
 static void afficherUsage(const char* prog) {
     std::cerr << "Utilisation : " << prog << " image_entree.jpg image_sortie.jpg [--exposure EV] [--contrast C] [--saturation S]\n"
@@ -91,4 +108,4 @@ int main(int argc, char** argv) {
     }
 
     return 0;
-}
+} */
